@@ -1,0 +1,157 @@
+{
+  "standard_react": [
+    {
+      "task_id": "task_1",
+      "agent_type": "standard_react",
+      "solved": true,
+      "attempts": 1,
+      "total_loops": 0,
+      "total_tokens_used": 100,
+      "error_history": []
+    },
+    {
+      "task_id": "task_2",
+      "agent_type": "standard_react",
+      "solved": false,
+      "attempts": 5,
+      "total_loops": 5,
+      "total_tokens_used": 733.75,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpzl1e39qp.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmprjsnxu_b.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp42dbs4_j.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpuacd1xkz.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpdzd0bfxh.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n"
+      ]
+    },
+    {
+      "task_id": "task_3",
+      "agent_type": "standard_react",
+      "solved": false,
+      "attempts": 5,
+      "total_loops": 5,
+      "total_tokens_used": 1470.0,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp8qm47r01.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp8qm47r01.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp8qm47r01.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp8qm47r01.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp6kc2x12p.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp6kc2x12p.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp6kc2x12p.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp6kc2x12p.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpx55otis_.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpx55otis_.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpx55otis_.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpx55otis_.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpox3n933p.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpox3n933p.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpox3n933p.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpox3n933p.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp7_am5lup.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp7_am5lup.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp7_am5lup.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp7_am5lup.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n"
+      ]
+    },
+    {
+      "task_id": "task_4",
+      "agent_type": "standard_react",
+      "solved": false,
+      "attempts": 5,
+      "total_loops": 5,
+      "total_tokens_used": 968.75,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpau6uj6kn.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpau6uj6kn.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpquqvfmpd.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpquqvfmpd.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpg3k_k_r4.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpg3k_k_r4.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpdnkkj_gz.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpdnkkj_gz.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp9yk8r10c.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp9yk8r10c.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n"
+      ]
+    },
+    {
+      "task_id": "task_5",
+      "agent_type": "standard_react",
+      "solved": false,
+      "attempts": 5,
+      "total_loops": 5,
+      "total_tokens_used": 946.25,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp2z81iyi9.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp2z81iyi9.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp6pwcrmt6.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp6pwcrmt6.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpeklwy4rp.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpeklwy4rp.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp00_zxly2.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp00_zxly2.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpi6iq71g4.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpi6iq71g4.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n"
+      ]
+    }
+  ],
+  "gfm_agent": [
+    {
+      "task_id": "task_1",
+      "agent_type": "gfm_agent",
+      "solved": true,
+      "attempts": 1,
+      "total_loops": 0,
+      "cycles_prevented": 0,
+      "total_tokens_used": 134.0,
+      "error_history": []
+    },
+    {
+      "task_id": "task_2",
+      "agent_type": "gfm_agent",
+      "solved": false,
+      "attempts": 2,
+      "total_loops": 1,
+      "cycles_prevented": 1,
+      "total_tokens_used": 318.75,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp31ivhd3j.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpsup74gb4.py\", line 4, in <module>\n    age = data[\"user\"][\"age\"]\n          ~~~~~~~~~~~~^^^^^^^\nKeyError: 'age'\n"
+      ]
+    },
+    {
+      "task_id": "task_3",
+      "agent_type": "gfm_agent",
+      "solved": false,
+      "attempts": 2,
+      "total_loops": 1,
+      "cycles_prevented": 1,
+      "total_tokens_used": 318.75,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp61hvwm7u.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp61hvwm7u.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp61hvwm7u.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmp61hvwm7u.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmprnig6s6r.py\", line 7, in <module>\n    print(factorial(-5))\n          ~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmprnig6s6r.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmprnig6s6r.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmprnig6s6r.py\", line 5, in factorial\n    return n * factorial(n)  # Missing base case for negative numbers\n               ~~~~~~~~~^^^\n  [Previous line repeated 996 more times]\nRecursionError: maximum recursion depth exceeded\n"
+      ]
+    },
+    {
+      "task_id": "task_4",
+      "agent_type": "gfm_agent",
+      "solved": false,
+      "attempts": 2,
+      "total_loops": 1,
+      "cycles_prevented": 1,
+      "total_tokens_used": 318.75,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpxpjr8mn6.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpxpjr8mn6.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpg0y71q29.py\", line 5, in <module>\n    print(calculate_average([]))\n          ~~~~~~~~~~~~~~~~~^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpg0y71q29.py\", line 3, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n"
+      ]
+    },
+    {
+      "task_id": "task_5",
+      "agent_type": "gfm_agent",
+      "solved": false,
+      "attempts": 2,
+      "total_loops": 1,
+      "cycles_prevented": 1,
+      "total_tokens_used": 316.0,
+      "error_history": [
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpu6q5f7_x.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpu6q5f7_x.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n",
+        "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpijppjr5z.py\", line 5, in <module>\n    print(get_last_item([1, 2, 3]))\n          ~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\hp\\AppData\\Local\\Temp\\tmpijppjr5z.py\", line 3, in get_last_item\n    return items[len(items)]\n           ~~~~~^^^^^^^^^^^^\nIndexError: list index out of range\n"
+      ]
+    }
+  ],
+  "research_metrics": {
+    "loop_prevention_rate": 20.0,
+    "token_efficiency": {
+      "react_avg_tokens": 843.8,
+      "gfm_avg_tokens": 281.2,
+      "token_savings_pct": 66.67
+    },
+    "task_success_rate": {
+      "react_success_rate": 20.0,
+      "gfm_success_rate": 20.0,
+      "improvement_pct": 0.0
+    },
+    "detailed_stats": {
+      "react_total_loops": 20,
+      "gfm_total_loops": 4,
+      "gfm_cycles_prevented": 4,
+      "react_avg_attempts": 4.2,
+      "gfm_avg_attempts": 1.8
+    }
+  }
+}
